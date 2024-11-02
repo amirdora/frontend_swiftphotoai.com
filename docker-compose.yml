@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./frontend  # Path to the folder containing the Dockerfile
+      dockerfile: Dockerfile  # Optional, specify if Dockerfile is named differently
+    ports:
+      - "3001:80"  # Map port 80 on the host to port 80 in the container
+    networks:
+      - app-network
+    environment:
+      - FRONTEND_URL=https://swiftphotoai.com
+
+networks:
+  app-network:
+    driver: bridge

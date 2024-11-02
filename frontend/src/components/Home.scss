@@ -1,0 +1,80 @@
+/* Navbar Styling */
+.navbar {
+  background-color: white;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+}
+
+.navbar-nav .dropdown-item img {
+  margin-right: 10px;
+}
+
+/* Header Section */
+header {
+  padding: 4rem 0;
+}
+
+.header-title {
+  font-size: 2.5rem;
+  color: #000;
+  font-weight: bold;
+}
+
+.btn-custom {
+  background-color: #5cb85c;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #4cae4c;
+  color: #fff;
+}
+
+/* Section Styling */
+.section-title {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.image-placeholder {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.placeholder-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+.custom-footer {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.cleanup-section {
+  margin-top: 2rem;
+  background-color: rgb(245 243 255 / var(--tw-bg-opacity));
+}

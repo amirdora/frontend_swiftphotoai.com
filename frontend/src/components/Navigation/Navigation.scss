@@ -1,0 +1,24 @@
+@import './../../styles/variables.scss';
+
+/* Navbar */
+.custom-navbar {
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .navbar-brand-custom {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: $primary-color;
+  }
+  
+  .btn-custom {
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }

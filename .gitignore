@@ -1,0 +1,9 @@
+
+/.vscode
+README-PVT.md
+.env
+frontend/node_modules/.cache/babel-loader/0c97b6fa98e32e79c28882d41806b0481ba04563b5604b02970abeab3ead860a.json
+/frontend/build
+frontend/.DS_Store
+/frontend/node_modules
+frontend/public/.DS_Store
