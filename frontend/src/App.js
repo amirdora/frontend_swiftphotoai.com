@@ -10,7 +10,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import Home from './components/Home';
 import ObjectRemoval from './components/ObjectRemoval/ObjectRemoval';
 import Navigation from './components/Navigation/Navigation';
-import { analytics } from './firebase'; // Import Firebase analytics
+import { analytics } from './services/firebaseService';
 
 function App() {
   useEffect(() => {
