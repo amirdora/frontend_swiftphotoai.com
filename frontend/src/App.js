@@ -11,6 +11,7 @@ import Home from './components/Home';
 import ObjectRemoval from './components/ObjectRemoval/ObjectRemoval';
 import Navigation from './components/Navigation/Navigation';
 import { analytics } from './services/firebaseService';
+import PrivacyPolicy from './components/pages/legals/privacy_policy';
 
 function App() {
   useEffect(() => {
@@ -29,6 +30,8 @@ function App() {
           <Route path="/form/:categorySlug" element={<FaceSwapForm />} />
           <Route path="/form/object_removal" element={<ObjectRemoval />} />
           <Route path="/result" element={<ResultPage />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/privacy_policy" element={<PrivacyPolicy />} />
         </Routes>
       </div>
     </Router>

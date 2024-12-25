@@ -18,6 +18,8 @@ function Home() {
     navigate(`/form/object_removal`);
   };
 
+  const currentYear = new Date().getFullYear(); // Get current year for the footer
+
   return (
     <>
 
@@ -72,8 +74,9 @@ function Home() {
         </section>
       </Container>
 
+
       <footer className="text-center mt-5 custom-footer">
-        <p>© 2024 Magic Studio. All rights reserved.</p>
+        <p>© {currentYear} Magic Studio. All rights reserved. | <a href="/privacy_policy">Privacy Policy</a></p>
       </footer>
     </>
   );
