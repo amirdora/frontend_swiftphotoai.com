@@ -20,8 +20,7 @@ const PrivacyPolicy = () => {
           <p>
             At SwiftPhotoAI, we prioritize the privacy of our users. This Privacy Policy
             explains how we collect, use, store, and protect your data when you use our
-            applications and services: <strong>FaceMax</strong> and{" "}
-            <strong>SwiftPhoto Ai Studio</strong>. By using these services, you agree to
+            applications and services: <strong>FaceMax</strong>, <strong>SwiftPhoto Ai Studio</strong>, and <strong>Touchify</strong>. By using these services, you agree to
             the terms of this policy.
           </p>
           <p>
@@ -34,9 +33,12 @@ const PrivacyPolicy = () => {
           </p>
           <p>
             <strong>SwiftPhoto Ai Studio:</strong> Combines advanced face-swapping
-            technology with powerful image editing tools. Whether you’re looking to swap
+            technology with powerful image editing tools. Whether you're looking to swap
             faces, edit photos like a pro, or have fun with creative filters, SwiftPhoto
             Ai Studio provides the ultimate creative playground.
+          </p>
+          <p>
+            <strong>Touchify:</strong> An innovative app that utilizes AI technology to create personalized video content. Users can generate custom videos using consumable coins, with various package options available through in-app purchases.
           </p>
         </Card.Body>
       </Card>
@@ -46,8 +48,8 @@ const PrivacyPolicy = () => {
         <Card.Body>
           <h2 className="h4">What Face Data We Collect</h2>
           <p>
-            To provide our AI-powered features in both <strong>FaceMax</strong> and{" "}
-            <strong>SwiftPhoto Ai Studio</strong>, we collect specific types of face
+            To provide our AI-powered features in <strong>FaceMax</strong>,{" "}
+            <strong>SwiftPhoto Ai Studio</strong>, and <strong>Touchify</strong>, we collect specific types of face
             data, including:
           </p>
           <ul>
@@ -86,13 +88,13 @@ const PrivacyPolicy = () => {
           <ul>
             <li>
               Provide AI-driven functionality, including face swapping, photo
-              editing, facial attribute analysis, and personalized attractiveness
-              scoring.
+              editing, facial attribute analysis, personalized attractiveness
+              scoring, and AI-powered video generation.
             </li>
             <li>
               Generate analytical or visual outputs (e.g., attractiveness ratings,
-              trait breakdowns, or image edits) essential to the core features of
-              both FaceMax and SwiftPhoto Ai Studio.
+              trait breakdowns, image edits, or custom videos) essential to the core features of
+              our applications.
             </li>
           </ul>
           <p>
@@ -102,16 +104,70 @@ const PrivacyPolicy = () => {
           </p>
         </Card.Body>
       </Card>
+      
+      {/* Payment and Subscription Information */}
+      <Card className="mb-4 border-0">
+        <Card.Body>
+          <h2 className="h4">Payment and Subscription Information</h2>
+          <p>
+            Our applications may offer in-app purchases, including consumable coins and subscription options:
+          </p>
+          <ul>
+            <li>
+              <strong>In-App Purchases and Coins:</strong> When you make in-app purchases, such as buying coin packages in Touchify, payment is processed through Apple's App Store or Google's Play Store. We do not collect or store your payment information, such as credit card details. We only receive confirmation of successful transactions from these platforms.
+            </li>
+            <li>
+              <strong>Subscription Information:</strong> For subscription-based services, we collect and store information about your subscription status, renewal dates, and transaction history to provide access to premium features and manage your subscription.
+            </li>
+            <li>
+              <strong>Usage Data:</strong> We collect data on coin usage and subscription feature access to provide and improve our services.
+            </li>
+          </ul>
+        </Card.Body>
+      </Card>
+      
+      {/* Terms for In-App Purchases and Subscriptions */}
+      <Card className="mb-4 border-0">
+        <Card.Body>
+          <h2 className="h4">Terms for In-App Purchases and Subscriptions</h2>
+          <p>
+            By making in-app purchases or subscribing to our services, you agree to the following terms:
+          </p>
+          <ul>
+            <li>
+              <strong>Coin Purchases:</strong> Coins purchased in our apps (like Touchify) are consumable items that allow you to access specific features, such as creating AI-powered videos. Once consumed, coins cannot be refunded or replaced.
+            </li>
+            <li>
+              <strong>Subscription Billing:</strong> Subscriptions automatically renew unless auto-renew is turned off at least 24 hours before the end of the current period. You can manage subscriptions and turn off auto-renewal in your account settings after purchase.
+            </li>
+            <li>
+              <strong>Pricing:</strong> We reserve the right to change subscription and coin package pricing at any time. Any price changes will not affect active subscriptions during their current billing period.
+            </li>
+            <li>
+              <strong>Refunds:</strong> All refund requests are handled by Apple's App Store or Google's Play Store according to their respective policies. We do not directly process refunds for in-app purchases or subscriptions.
+            </li>
+            <li>
+              <strong>Cancellation:</strong> You may cancel a subscription at any time through your App Store or Google Play account settings. Cancellation will take effect at the end of the current billing period.
+            </li>
+          </ul>
+          <p>
+            For more detailed information about our subscription terms, please refer to the Apple App Store or Google Play Store terms of service.
+          </p>
+        </Card.Body>
+      </Card>
 
       {/* Third-Party Sharing and Storage */}
       <Card className="mb-4 border-0">
         <Card.Body>
           <h2 className="h4">Third-Party Sharing & Storage</h2>
           <p>
-            <strong>FaceMax</strong> and <strong>SwiftPhoto Ai Studio</strong>{" "}
+            <strong>FaceMax</strong>, <strong>SwiftPhoto Ai Studio</strong>, and <strong>Touchify</strong>{" "}
             process data on our secure servers. We do not sell, rent, or otherwise
             share your face data with third parties except if required by law or
             legal processes.
+          </p>
+          <p>
+            For payment processing, we use industry-standard payment processors (Apple App Store, Google Play Store, and RevenueCat) to handle transactions securely. These services may have access to your transaction data but not your face data or other personal information beyond what is necessary for processing payments.
           </p>
           <p>
             These data centers comply with industry standards to ensure a high
@@ -130,17 +186,16 @@ const PrivacyPolicy = () => {
           </p>
           <ul>
             <li>
-              <strong>Uploaded Photos:</strong> Deleted within 30 minutes of
+              <strong>Uploaded Photos/Videos:</strong> Deleted within 30 minutes of
               processing completion (or sooner, if technically feasible).
             </li>
             <li>
               <strong>Error Logs:</strong> Retained for 7 days and contain no raw
               face data (only timestamps or technical info).
             </li>
-            {/* <li>
-              <strong>Session Data:</strong> Cleared upon logout or session
-              expiration, whichever comes first.
-            </li> */}
+            <li>
+              <strong>Purchase and Subscription Records:</strong> Retained for as long as required for accounting, tax, and legal compliance purposes, typically for 7 years after the transaction date.
+            </li>
           </ul>
           <p>
             After the applicable retention period, your data is permanently
@@ -191,19 +246,22 @@ const PrivacyPolicy = () => {
         <Card.Body>
           <h2 className="h4">Where to Find This Information</h2>
           <p>
-            <strong>Collection of Face Data:</strong> “What Face Data We Collect”
+            <strong>Collection of Face Data:</strong> "What Face Data We Collect"
           </p>
           <p>
-            <strong>Use of Face Data:</strong> “How We Use Collected Data”
+            <strong>Use of Face Data:</strong> "How We Use Collected Data"
           </p>
           <p>
-            <strong>Third-Party Sharing:</strong> “Third-Party Sharing & Storage”
+            <strong>Third-Party Sharing:</strong> "Third-Party Sharing & Storage"
           </p>
           <p>
-            <strong>Data Retention:</strong> “Data Retention”
+            <strong>Data Retention:</strong> "Data Retention"
           </p>
           <p>
-            <strong>User Rights:</strong> “Your Rights”
+            <strong>User Rights:</strong> "Your Rights"
+          </p>
+          <p>
+            <strong>Purchases and Subscriptions:</strong> "Payment and Subscription Information" and "Terms for In-App Purchases and Subscriptions"
           </p>
         </Card.Body>
       </Card>
@@ -213,18 +271,18 @@ const PrivacyPolicy = () => {
           <h2 className="h4">Quotes from This Privacy Policy Concerning Face Data</h2>
           <p>
             <em>
-              “<strong>What Face Data We Collect:</strong> [...] We collect limited face
+              "<strong>What Face Data We Collect:</strong> [...] We collect limited face
               data, including facial landmarks, feature descriptors, and processing
               metadata to perform AI-driven photo editing and provide attractiveness
-              analysis.”
+              analysis."
             </em>
           </p>
           <p>
             <em>
-              “<strong>How We Use Collected Data:</strong> [...] We use your face data
+              "<strong>How We Use Collected Data:</strong> [...] We use your face data
               exclusively to provide AI-powered features, including face swapping,
               attractiveness scoring, and photo editing. Your face data is not used for
-              advertising or unrelated profiling.”
+              advertising or unrelated profiling."
             </em>
           </p>
         </Card.Body>
@@ -248,7 +306,7 @@ const PrivacyPolicy = () => {
           <h2 className="h4">Contact Us</h2>
           <p>
             If you have any questions or concerns about this Privacy Policy or how
-            your data is handled within FaceMax or SwiftPhoto Ai Studio, please contact
+            your data is handled within our applications, please contact
             us at:
           </p>
           <p>Email: <strong>{email}</strong></p>
